@@ -1,0 +1,8 @@
+management.metrics.export.newrelic.enabled=true
+management.metrics.export.newrelic.api-key=
+management.metrics.export.newrelic.account-id=
+management.metrics.export.newrelic.step=30s
+counter-name=
+sleep-ms=60000
+
+
