@@ -112,5 +112,5 @@ June 13, 2022 15:24:00
 ```
 
 ## Potential Fixes
-1. Don't do another `publish()` out of normal schedule on shutdown. Wait until the next metric report on shutdown. This requires Spring Boot application set graceful restart
+1. We can have a option to not do another `publish()` out of normal schedule on shutdown. Instead to wait until the next metric report on shutdown. This requires Spring Boot application set graceful restart
 2. When doing `publish()` out of normal schedule, see it as another step (different to normal step). So the count / timer will be zeroed. Don't know if this will affect behaviors in other metrics types.
