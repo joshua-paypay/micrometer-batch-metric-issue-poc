@@ -114,3 +114,4 @@ June 13, 2022 15:24:00
 ## Potential Fixes
 1. We can have a option to not do another `publish()` out of normal schedule on shutdown. Instead to wait until the next metric report on shutdown.
 2. When doing `publish()` out of normal schedule, see it as another step (different to normal step). So the count / timer will be zeroed. Don't know if this will affect behaviors in other metrics types.
+3. This might be fixed by https://github.com/micrometer-metrics/micrometer/pull/2519 ?
